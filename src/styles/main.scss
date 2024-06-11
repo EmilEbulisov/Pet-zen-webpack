@@ -23,6 +23,7 @@ $yelowTwo: #FFB61D;
     padding-left: 100px;
     padding-right: 100px;
     margin: 0 auto;
+    margin-top: 50px;
     &_logo {
         text-decoration: none;
 
@@ -45,9 +46,20 @@ $yelowTwo: #FFB61D;
         background-color: $yelow;
         border-radius: 58px;
         color: $white;
-        width: 35px; 
-        height: 20px; 
+        width: 204px; 
+        height: 68px; 
+        font-weight: 800;
+        font-size: 28px;
     }
-    
+    &_logo_1 {
+        color: $black;
+        font-family: "Paytone One", sans-serif;
+        font-size: 60px;
+    }
+    &_logo_2 {
+        color: $yelow;
+        font-family: "Paytone One", sans-serif;
+        font-size: 60px;
+    }
 
 }
