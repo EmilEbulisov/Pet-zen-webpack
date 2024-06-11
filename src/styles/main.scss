@@ -4,7 +4,25 @@ $yelow: #FBBC05;
 $white: #FFFFFF;
 $dark: #323232;
 $blue: #374957;
+$darkBlue: #0D0C22;
+$black: #000000;
+$darkGreen: #00160A;
+$yelowTwo: #FFB61D;
 
-.header_item{
+.header_item {
     font-family: "Open Sans", sans-serif;
+    text-size-adjust: 500px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0 auto;
+    &_logo{
+        
+    }
+
 }
