@@ -50,6 +50,10 @@ $yelowTwo: #FFB61D;
         height: 68px; 
         font-weight: 800;
         font-size: 28px;
+        transition: .2s;
+        &:hover {
+            background-color: $blue;
+        }
     }
     &_logo_1 {
         color: $black;
