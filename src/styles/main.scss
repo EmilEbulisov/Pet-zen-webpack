@@ -76,6 +76,9 @@ $yelowTwo: #FFB61D;
     
 }
 .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     &_text {
         margin-top: 70px;
     }
