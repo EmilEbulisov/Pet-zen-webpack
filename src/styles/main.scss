@@ -75,15 +75,26 @@ $yelowTwo: #FFB61D;
     margin-top: 40px;
     
 }
-.main_text {
-    margin-top: 70px;
-}
-.main_title {
-    font-family: "Alata", sans-serif;
-    font-size: 69px;
-    color: $darkBlue;
-
-    &_title_frend {
-     color: $yelow;
+.main {
+    &_text {
+        margin-top: 70px;
+    }
+    &_title {
+        font-family: "Alata", sans-serif;
+        font-size: 69px;
+        color: $darkBlue;
+    
+        &_friend {
+         color: $yelow;
+         font-family: "Paytone One", sans-serif;
+         font-size: 69px;
+        }
+    }
+    &_p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 21px;
+        font-weight: 300;
+        color: $dark;
+    
     }
 }
