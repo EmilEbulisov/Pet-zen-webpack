@@ -7,7 +7,8 @@ $blue: #374957;
 $darkBlue: #0D0C22;
 $black: #000000;
 $darkGreen: #00160A;
-$yelowTwo: #FFB61D;
+$gray: #EDE8E8;
+
 
 .header_item {
     font-family: "Open Sans", sans-serif;
@@ -158,4 +159,24 @@ $yelowTwo: #FFB61D;
         margin-bottom: 30px;
     }
     
+}
+.additional {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0 auto;
+    &_group {
+        width: 1240px;
+        height: 308px;
+        border-radius: 15px;
+        background-color: $gray;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 45px;
+        margin-bottom: 45px;
+        
+    }
 }
