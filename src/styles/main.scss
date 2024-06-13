@@ -128,17 +128,20 @@ $yelowTwo: #FFB61D;
         width: 299px;
         position: relative;
         border-radius: 20px;
-        box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.300);
         padding: 25px;
         margin-top: 30px;
     }
     &_svg {
         position: absolute;
         right: 150px;
+        margin-right: auto;
+        margin-left: auto;
         margin-top: 10px;
     }
     &_title {
         margin-top: 80px;
+        margin-bottom: 0px;
         text-align: center;
         font-family: "Open Sans", sans-serif;
         font-size: 28px;
@@ -149,10 +152,10 @@ $yelowTwo: #FFB61D;
         margin-left: 10px;
         margin-right: 10px;
         font-family: "Open Sans", sans-serif;
-        font-size: 20px;
+        font-size: 19px;
         color: $dark;
         font-weight: 300;
-        margin-top: -5px;
+        margin-bottom: 30px;
     }
     
 }
