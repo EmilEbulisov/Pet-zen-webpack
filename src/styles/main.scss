@@ -59,6 +59,8 @@ $yelowTwo: #FFB61D;
         color: $black;
         font-family: "Paytone One", sans-serif;
         font-size: 60px;
+        
+        padding-right: 100px;
     }
     &_logo_2 {
         color: $yelow;
@@ -103,5 +105,21 @@ $yelowTwo: #FFB61D;
     }
     &_image {
         margin-top: 40px;
+    }
+}
+.grid {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: auto;
+    &_item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 224px;
+        width: 299px;
+    }
+    &_svg {
+        
     }
 }
